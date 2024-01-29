@@ -1,0 +1,405 @@
+1)user :
+e :even number check 
+	even 
+	not even 
+
+o :odd number 
+	odd
+	not odd 
+
+not match 
+
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter a character e for check even   o for check odd:");
+    scanf("%c",&alpha);
+    if(alpha=='e'){
+        int num;
+        printf("enter a no:");
+        scanf("%d",&num);
+        if(num%2==0){
+            printf("even");
+        }
+        else{
+            printf("not even");
+        }
+    }
+    else if(alpha=='o'){
+        int num;
+        printf("enter a no:");
+        scanf("%d",&num);
+        if(num%2!=0){
+            printf("odd");
+        }
+        else{
+            printf("not odd");
+        }
+    }
+    else{
+        printf("not match");
+    }
+    return 0;
+}
+
+-----------------------------------------------------
+v :check valid voter id 
+g :check gender 
+t :two number max 
+h :three number max 
+c :check vowel and consoant 
+
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter any character: \n v for votar id: \n g for check gender:\n t for two no max: \n h for three no max: \n c for check vowel and consonant:");
+    scanf(" %c",&alpha);
+    if (alpha=='v'){
+        int age;
+        printf("enter your age:");
+        scanf("%d",&age);
+        if (age>18){
+            printf("you can vote");
+        }
+        else{
+            printf("you can not vote");
+        }
+    }
+    else if(alpha=='g'){
+        char gender;
+        printf("enter your gender f for female m for male o for other");
+        scanf(" %c",&gender);
+        if(gender=='f'){
+            printf("female");
+        }
+        else if(gender=='m'){
+            printf("male");
+        }
+        else if(gender=='o'){
+            printf("other");
+        }
+        else{
+            printf("not in list");
+        }
+    }
+    else if(alpha=='t'){
+        int a;
+        printf("enter the first no:");
+        scanf("%d",&a);
+        int b;
+        printf("enter the second no:");
+        scanf("%d",&b);
+        if(a>b){
+            printf("first no is greater");
+        }
+        else{
+            printf("second no is greater");
+        }
+    }
+    else if (alpha=='h'){
+        int a;
+        printf("enter the first no:");
+        scanf("%d",&a);
+        int b;
+        printf("enter the second no:");
+        scanf("%d",&b);
+        int c;
+        printf("enter the third no:");
+        scanf("%d",&c);
+        if(a>b){
+            if(a>c){
+                printf("first no is greater");
+            }
+            else{
+                printf("third no is greater");
+            }
+        }
+        else if(b>c){
+           printf("second no is greater"); 
+        }
+        else {
+            printf("third no is greater");
+        }
+    }
+    else if(alpha=='c'){
+        char end;
+        printf("enter any character:");
+        scanf(" %c",&end);
+        if(end=='a' || end=='i' || end=='o' || end=='u' || end=='e'){
+            printf("given character is vowel");
+        } 
+        else{
+            printf("given character is consonat");
+        }
+    }
+    
+    return 0;
+}
+-----------------------------------------------------------
+c : alphabet 
+	a :apple 
+	b :ball 
+	C :cat 
+	not match 
+
+d :digit check 
+	1 :one 
+	2 :two 
+	3 :three
+	not match 
+
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter c for alphabets and d for digits:");
+    scanf("%c",&alpha);
+    if (alpha=='c'){
+        char end;
+        printf("enter any character:");
+        scanf(" %c",&end);
+        if(end=='a'){
+            printf("apple");
+        }
+        else if (end=='b'){
+            printf("ball");
+        }
+        else if (end=='c'){
+            printf("cat");
+        }
+        else{
+            printf("not match");
+        }
+    }
+    else if(alpha=='d'){
+        int end;
+        printf("enter any no:");
+        scanf("%d",&end);
+        if(end==1){
+            printf("one");
+        }
+        else if (end==2){
+            printf("two");
+        }
+        else if (end==3){
+            printf("three");
+        }
+        else{
+            printf("not match");
+        }
+    }
+    return 0;
+}
+    
+-----------------------------------------------------
+s : 
+	w:with varaible swap 
+	n:without varaible swap 
+
+#include<stdio.h>
+int main(){
+    char start;
+    printf("enter any charctre to start:");
+    scanf("%c",&start);
+    if (start=='w'){
+        int a=10;
+        int b=20;
+        int c;
+        printf("the value of a before swapping:%d\n",a);
+        printf("the value of b before swapping:%d\n",b);
+        c=a;
+        a=b;
+        b=c;
+        printf("the value of a after swapping:%d\n",a);
+        printf("the value of b after swapping:%d\n",b);
+    }
+    else if (start=='n'){
+        int a=10;
+        int b=20;
+        printf("the value of a before swapping:%d\n",a);
+        printf("the value of b before swapping:%d\n",b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        printf("the value of a after swapping:%d\n",a);
+        printf("the value of b after swapping:%d\n",b);
+    }
+}
+
+-----------------------------------------------------
+C program to convert temperature from Fahrenheit to Celsius and Celsius to Fahrenheit
+cesius 
+f 
+c---f 
+c 
+f---->c 
+
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter c for celsius and f for fahrenheit:");
+    scanf("%c",&alpha);
+    if (alpha=='f'){
+        float f;
+        printf("enter  tempreature in celsius:");
+        scanf("%f",&f);
+        float fan=(f*9/5)+32;
+        printf("tempreature in fahrenheit:%f\n",fan);
+    }
+     else if (alpha=='c'){
+         float c;
+        printf("enter  tempreature in fahrenheit:");
+        scanf("%f",&c);
+        float cel=((c-32)*5)/9;
+        printf("tempreature in celsious:%f",cel);
+     }
+    return 0;
+}
+------------------
+Check whether the trainge , square , reactanlge (area & volume)
+->input area /volume 
+area 
+traingle square rectangle 
+square 
+
+#include<stdio.h>
+int main(){
+    char av;
+    printf("enter a for area  OR v for volume:");
+    scanf("%c",&av);
+    if(av=='a'){
+        char area;
+        printf("enter\n t for area of triangle:\n s for area of square:\n r for area of rectangle:");
+        scanf(" %c",&area);
+        if (area=='t'){
+            int base;
+            printf("enter the base of the triangle:");
+            scanf("%d",&base);
+            int height;
+            printf("enter the height of the triangle:");
+            scanf("%d",&height);
+            int result=(base*height)/2;
+            printf("the area of the triangle is:%d",result);
+        }
+        else if(area=='s'){
+            int side;
+            printf("enter the length of side:");
+            scanf("%d",&side);
+            int result=side*side;
+            printf("the area of the square is:%d",result);
+        }
+        else if(area=='r'){
+            int width;
+            printf("enter the width of the rectangle:");
+            scanf("%d",&width);
+            int height;
+            printf("enter the height of the rectangle:");
+            scanf("%d",&height);
+            int result=width*height;
+            printf("the area of the rectangle is:%d",result);
+    }    }
+    else if (av=='v'){
+        char volume;
+        printf("enter\n t for volume of triangle:\n c for volume of cube:\n r for volume of rectangle:");
+        scanf(" %c",&volume);
+        if(volume=='t'){
+            int width;
+            printf("enter the width of the triangle:");
+            scanf("%d",&width);
+            int height;
+            printf("enter the height of the triangle:");
+            scanf("%d",&height);
+            int result=(width*height*1/2);
+            printf("the volume of the triangle is:%d",result);
+        }
+        else if(volume=='c'){
+            int side;
+            printf("enter the length of side:");
+            scanf("%d",&side);
+            int result=side*side*side;
+            printf("the volume of cube is:%d",result);
+        }
+        else if(volume=='r'){
+             int length;
+            printf("enter the length of the rectangle:");
+            scanf("%d",&length);
+            int width;
+            printf("enter the width of the rectangle:");
+            scanf("%d",&width);
+            int height;
+            printf("enter the height of the rectangle:");
+            scanf("%d",&height);
+            int result=length*height*width;
+            printf("the volume of the rectangle is:%d",result);
+        }
+    }
+    
+    return 0;
+}
+----------------------------------
+salalry :
+holidays (1) =full salary 
+2-5 =5% 
+5-14 =10% 
+15 =50% 
+else =not salary 
+
+output : 
+name:
+address: 
+bank details: 
+salary : 
+alot :
+ holidays 
+
+
+#include<stdio.h>
+int main(){
+    int sall;
+    char name;
+    printf("enter name of the employee:\n");
+    scanf(" %c",&name);
+    char address;
+    printf("enter address of the employee:\n");
+    scanf(" %c",&address);
+    char bank;
+    printf("enter bank details of the employee:\n");
+    scanf(" %c",&bank);
+    int sal;
+    printf("enter salary of the employee:\n");
+    scanf("%d",&sal);
+    int hol;
+    printf("enter holidays taking by employee:");
+    scanf("%d",&hol);
+    if (hol>0&& hol<=1){
+        printf("you will receive full salary:%d\n",sal);
+    }
+    else if(hol>2&& hol<=5){
+       int per=(sal*5)/100;
+       sall=sal-per;
+        printf("your salary will be deduct 5 percent :%d\n",sall);
+    }
+    else if(hol>5&& hol<=14){
+       int per=(sal*10)/100;
+       sall=sal-per;
+        printf("your salary will be deduct 10 percent :%d\n",sall);
+    }
+    else if(hol>15&& hol<=20){
+       int per=(sal*50)/100;
+       sall=sal-per;
+        printf("your will receive half of your salary :%d\n",sall);
+    } 
+    else{
+        printf("no salary");
+    }
+    printf("employee details:\n");
+    printf("name:%c\n",name);
+    printf("address:%c\n",address);
+    printf("bank details:%c\n",bank);
+    printf("total salary:%d\n",sal);
+    printf("aloted salary after holidays:%d\n",sall);
+    printf("holidays:%d",hol);
+    
+    return 0;
+}
+----------------------------------------------------------
+   

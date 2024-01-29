@@ -1,0 +1,187 @@
+1)
+
+*
+**
+***
+#include<stdio.h>
+int main(){
+    for (int i=1;i<=3;i++){
+        for (int j=1;j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+------------------------------------
+2)
+***
+**
+*
+#include<stdio.h>
+int main(){
+    for (int i=1;i<=3;i++){
+        for (int j=3;j>=i;j--){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-----------------------------------------------
+3)
+*
+**
+***
+***
+**
+*
+
+#include<stdio.h>
+int main(){
+    for (int i=1;i<=3;i++){
+      for(int j=1;j<=i;j++){
+          printf("*");
+      }  
+        printf("\n");
+    }
+    for (int i=1;i<=3;i++){
+        for (int j=3;j>=i;j--){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+dry run
+-----------------------------------
+4)
+*
+**
+***
+**
+*
+
+#include<stdio.h>
+int main(){
+    for (int i=1;i<=3;i++){
+      for(int j=1;j<=i;j++){
+          printf("*");
+      }  
+        printf("\n");
+    }
+    for (int i=1;i<=2;i++){
+        for (int j=2;j>=i;j--){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+---------------------------------------
+5)
+1
+22
+333
+4444
+55555
+
+#include<stdio.h>
+int main(){
+    for (int i=1;i<=5;i++){
+      for(int j=1;j<=i;j++){
+          printf("%d",i);
+      }  
+        printf("\n");
+    }
+    
+    return 0;
+}
+dry run 
+------------------------------------------------------
+6)
+1
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+
+#include<stdio.h>
+int main(){
+    for (int i=1;i<=5;i++){
+      for(int j=1;j<=i;j++){
+          printf("%d",j);
+      }  
+        printf("\n");
+    }
+    
+    return 0;
+}
+---------------------------------------------
+
+7)
+1
+1 0 
+1 0 1
+1 0 1 0
+1 0 1 0 1 
+
+#include<stdio.h>
+int main(){
+    for (int i=1;i<=5;i++){
+      for(int j=1;j<=i;j++){
+          printf("%d",j%2!=0);
+      }  
+        printf("\n");
+    }
+    
+    return 0;
+}
+--------------------------------------
+8)
+1
+0 0 
+1 1 1 
+0 0 0 0
+1 1 1 1 1
+
+#include<stdio.h>
+int main(){
+    for (int i=1;i<=5;i++){
+      for(int j=1;j<=i;j++){
+          printf("%d",i%2!=0);
+      }  
+        printf("\n");
+    }
+    
+    return 0;
+}
+----------------------------------------------------------
+9)
+1
+2 3 
+4 5 6 
+7 8 9 10 
+
+#include<stdio.h>
+int main(){
+    int counter=1;
+    int a=4;
+    for (int i=0;i<a;i++){
+        for (int j=0;j<=i;j++){
+            printf("%d",counter);
+            counter++;
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
+----------------------------------------------------------
+10)
+2
+4 6
+8 10 12
+14 16 18 20 
+-------------------------------------------------------------

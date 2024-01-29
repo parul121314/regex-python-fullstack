@@ -1,0 +1,236 @@
+take the all values from the user:-
+
+
+1)34 -6.7 12 8.09 o w
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter any integer value :");
+    scanf("%d",&a);
+    printf("the entered integer is :%d\n",a);
+    float b;
+    printf("enter any decimal value:");
+    scanf("%f",&b);
+    printf("the entered decimal value is :%f\n",b);
+    int c;
+    printf("enter any integer value :");
+    scanf("%d",&c);
+    printf("the entered integer value is  :%d\n",c);
+    float d;
+    printf("enter any decimal value:");
+    scanf("%f",&d);
+    printf("the entered decimal value is :%f\n",d);
+    char e;
+    printf("enter any character:");
+    scanf(" %c",&e);
+    printf("the entered character is :%c\n",e);
+    char f;
+    printf(" again enter any character:");
+    scanf(" %c",&f);
+    printf("the entererd character is :%c\n",f);
+    return 0;
+}
+---------------------------------------------------------------------------------------
+2)r 12 -78 y 8.9 16 9.8
+
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("enter any char value:");
+    scanf(" %c",&a);
+    printf("the entered char value is  :%c\n",a);
+    int b;
+    printf("enter any integer value:");
+    scanf("%d",&b);
+    printf("the entered integer value is :%d\n",b);
+    int c;
+    printf("enter any  negative integer value :");
+    scanf("%d",&c);
+    printf("the entered negative integer value is  :%d\n",c);
+    char alpha;
+    printf("enter any char value:");
+    scanf(" %c",&alpha);
+    printf("the entered char value is :%c\n",alpha);
+    float e;
+    printf("enter any decimal value:");
+    scanf("%f",&e);
+    printf("the entered decimal value is :%f\n",e);
+    int f;
+    printf(" enter any integer value:");
+    scanf("%d",&f);
+    printf("the entererd integer value  is :%d\n",f);
+    float g;
+    printf("enter any decimal value:");
+    scanf("%f",&g);
+    printf("the entered decimal value is :%f\n",g);
+    return 0;
+}
+---------------------------------------------------
+3)23+9
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enetr the value of a:");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c =a+b;
+    printf("the addition of a and b is :%d",c);
+    return 0;
+}
+-----------------------------------------------------
+4)23-9
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enetr the value of a:");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c =a-b;
+    printf("the subtraction of a and b is :%d",c);
+    return 0;
+}
+-------------------------------------
+5)12*3
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enetr the value of a:");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c =a*b;
+    printf("the multiplication of a and b is :%d",c);
+    return 0;
+}
+---------------------------------------------------
+6)66/3
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enetr the value of a:");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c =a/b;
+    printf("the division of a and b is :%d",c);
+    return 0;
+}
+--------------------------------------------------
+7)56+78+34+12
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enetr the value of a:");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enetr the value of c:");
+    scanf("%d",&c);
+    int d;
+    printf("enetr the value of d:");
+    scanf("%d",&d);
+    int result =a+b+c+d;
+    printf("the addition of a and b is :%d",result);
+    return 0;
+}
+--------------------------------------------------------
+8)12*4-6/2
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enetr the value of a:");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enetr the value of c:");
+    scanf("%d",&c);
+    int d;
+    printf("enetr the value of d:");
+    scanf("%d",&d);
+    int result =a*b-c/d;
+    printf("the addition of a and b is :%d",result);
+    return 0;
+}
+-----------------------------------------------------
+9)1.2*2-(8/2)
+
+#include<stdio.h>
+int main()
+{
+    float a;
+    printf("enetr any decimal  value of a:");
+    scanf("%f",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enetr the value of c:");
+    scanf("%d",&c);
+    int d;
+    printf("enetr the value of d:");
+    scanf("%d",&d);
+    float result =a*b-(c/d);
+    printf("the addition of a and b is :%f",result);
+    return 0;
+}
+-----------------------------------------------------------
+10)12*7+45-(34-3)+3.4-8.9
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enetr the value of a:");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enetr the value of c:");
+    scanf("%d",&c);
+    int d;
+    printf("enetr the value of d:");
+    scanf("%d",&d);
+    int e;
+    printf("enetr the value of d:");
+    scanf("%d",&e);
+    float f;
+    printf("enetr any decimal  value of f:");
+    scanf("%f",&f);
+    float g;
+    printf("enetr any decimal value of g:");
+    scanf("%f",&g);
+    float result =a*b+c-(d/e)+f-g;
+    printf("the addition of a and b is :%f",result);
+    return 0;
+}
+---------------------------------------------------
+
+
+
+
+
+

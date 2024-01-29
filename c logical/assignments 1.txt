@@ -1,0 +1,45 @@
+wap to print these statement in one line.
+
+# include <stdio.h>
+int main()
+{
+    printf("welcome to india");
+    printf(" welcome to america");
+    printf(" welcome to delhi");
+    printf(" welcome to pakistan");
+}
+
+wap to print these statement in different lines.
+
+# include <stdio.h>
+int main()
+{
+    printf("welcome to india\n");
+    printf("welcome to america\n");
+    printf("welcome to delhi\n");
+    printf("welcome to pakistan\n");
+}
+
+wap to print five fruits name .
+# include <stdio.h>
+int main()
+{
+    printf("apple,orange,banana,grapes,pineapple");
+   
+}
+
+wap to print 5 country name.
+# include <stdio.h>
+int main()
+{
+    printf("india,austrila,afganistan,japan,china");
+   
+}
+
+wap to print 5 city name.
+# include <stdio.h>
+int main()
+{
+    printf("new delhi,mumbai,chennai,banglore,Kolkata");
+   
+}

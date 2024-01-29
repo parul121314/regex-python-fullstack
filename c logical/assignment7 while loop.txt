@@ -1,0 +1,138 @@
+1)
+1---->5 
+
+#include<stdio.h>
+int main(){
+    int a=1;
+    while(a<=5){
+        printf("%d",a);
+        a++;
+    }
+    return 0;
+}
+----------------------------------------------------------------
+
+2)
+1-->10
+dry run 
+
+#include<stdio.h>
+int main(){
+    int a=1;
+    while(a<=10){
+        printf("%d",a);
+        a++;
+    }
+    return 0;
+}
+----------------------------------------------------------------------------
+
+3)
+1--->100
+#include<stdio.h>
+int main(){
+    int a=1;
+    while(a<=100){
+        printf(" %d",a);
+        a++;
+    }
+    return 0;
+}
+---------------------------------------------------------------
+
+4)
+50----->100
+#include<stdio.h>
+int main(){
+    int a=50;
+    while(a<=100){
+        printf(" %d",a);
+        a++;
+    }
+    return 0;
+}
+---------------------------------------------------------------
+
+5)
+24 ----->89 
+#include<stdio.h>
+int main(){
+    int a=24;
+    while(a<=89){
+        printf(" %d",a);
+        a++;
+    }
+    return 0;
+}
+---------------------------------------------------------------
+
+
+6)
+starting point user ---->ending point 
+#include<stdio.h>
+int main(){
+    int start;
+    printf("enter the starting point:");
+    scanf("%d",&start);
+    int end;
+    printf("enter the end point:");
+    scanf("%d",&end);
+    while(start<=end){
+        printf("%d",start);
+        start++;
+    }
+    return 0;
+}
+------------------------------------
+
+7)
+10---->1 
+dry run
+#include<stdio.h>
+int main(){
+    int a=10;
+    while(a>=1){
+        printf(" %d",a);
+        a--;
+    }
+    return 0;
+}
+-------------------------------------------
+
+8)
+100--->1
+#include<stdio.h>
+int main(){
+    int a=100;
+    while(a>=1){
+        printf(" %d",a);
+        a--;
+    }
+    return 0;
+}
+---------------------------------------------
+9)
+500---->50 
+#include<stdio.h>
+int main(){
+    int a=500;
+    while(a>=50){
+        printf(" %d",a);
+        a--;
+    }
+    return 0;
+}
+------------------------------------------------
+
+10)
+89-->21 
+#include<stdio.h>
+int main(){
+    int a=89;
+    while(a>=21){
+        printf(" %d",a);
+        a--;
+    }
+    return 0;
+}
+-------------------------------------------

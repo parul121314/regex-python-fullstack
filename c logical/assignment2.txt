@@ -1,0 +1,169 @@
+1)wap to print all these
+34 
+-6.7
+12
+8.09
+o
+w 
+
+#include<stdio.h>
+int main()
+{
+    int a=34;
+    printf("%d\n",a);
+    float b=-6.7;
+    printf("%f\n",b);
+    int c=12;
+    printf("%d\n",c);
+    float d=8.09;
+    printf("%f\n",d);
+    char e='o';
+    printf("%c\n",e);
+    char f='w';
+    printf("%c",f);
+    return 0;
+}
+--------------------------------------------------------
+2)wap to print these
+r
+12
+-78
+y
+8.9
+16
+-9.8
+
+#include<stdio.h>
+int main()
+{
+    char a='r';
+    printf("%c\n",a);
+    int b=12;
+    printf("%d\n",b);
+    int c=-78;
+    printf("%d\n",c);
+    char d='y';
+    printf("%c\n",d);
+    float e=8.9;
+    printf("%f\n",e);
+    int f=16;
+    printf("%d\n",f);
+    float g=9.8;
+    printf("%f",g);
+    return 0;
+}
+------------------------------------------------------
+
+3)wap to calculate this 
+23 +9 
+#include<stdio.h>
+int main()
+{
+    int a=23;
+    int b=9;
+    int c=a+b;
+    printf("%d",c);
+    return 0;
+}
+-------------------------------------------
+
+4)23 -9 
+
+#include<stdio.h>
+int main()
+{
+    int a=23;
+    int b=9;
+    int c=a-b;
+    printf("%d",c);
+    return 0;
+}
+-----------------------------------------
+
+5)
+12*3 
+#include<stdio.h>
+int main()
+{
+    int a=12;
+    int b=3;
+    int c=a*b;
+    printf("%d",c);
+    return 0;
+}
+---------------------------------------
+
+6)
+66/3
+
+#include<stdio.h>
+int main()
+{
+    int a=66;
+    int b=3;
+    int c=a/b;
+    printf("%d",c);
+    return 0;
+}
+------------------------------
+
+
+7)
+56+78+34+12
+#include<stdio.h>
+int main()
+{
+    int a=56;
+    int b=78;
+    int c=34;
+    int d=12;
+    int result=a+b+c+d;
+    printf("%d",result);
+    return 0;
+}
+-----------------------------------
+
+8)
+12*4-6/2 
+#include<stdio.h>
+int main()
+{
+    int a=12;
+    int b=4;
+    int c=6;
+    int d=2;
+    int result=a*b-c/d;
+    printf("%d",result);
+    return 0;
+}
+----------------------------------
+
+9)1.2*2-(8/2)
+#include<stdio.h>
+int main()
+{
+    float a=1.2;
+    int b=2;
+    int c=8;
+    int d=2;
+    float result=a*b-(c/d);
+    printf("%f",result);
+    return 0;
+}
+-----------------------------------------
+
+10)12*7+45-(34-3)+3.4 -8.9 
+#include<stdio.h>
+int main()
+{
+    int a=12;
+    int b=7;
+    int c=45;
+    int d=34;
+    int e=3;
+    float f=3.4;
+    float g=8.9;
+    float result=a*b+c-(d-e)+f-g;
+    printf("%f",result);
+    return 0;
+}

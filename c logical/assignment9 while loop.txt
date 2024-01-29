@@ -1,0 +1,252 @@
+1)armstrong number 
+dry run :
+152 
+
+154 
+
+#include<stdio.h>
+int main(){
+    int sum=0;
+    int rem;
+    int num;
+    printf("enter any no:");
+    scanf("%d",&num);
+    
+    int temp=sum;
+    while(num>0){
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    printf("%d ",sum);
+    if (temp==sum){
+        printf("armstrong");
+    }
+    else{
+        printf("not armstrong");
+    }
+    return 0;
+}
+-------------------------------------------------------------------
+
+2)count digit :
+67437
+
+12573
+dry run
+
+#include<stdio.h>
+int main(){
+   int num;
+   printf("enter any no:");
+   scanf("%d",&num);
+   int count=0;
+   while(num>0){
+       num=num/10;
+       count++;
+   }
+   printf("%d ",count);
+    return 0;
+}
+--------------------------------------------------------------------- 
+
+3)table print 2 
+dry run 
+
+#include<stdio.h>
+int main(){
+   int num;
+   printf("enter any no:");
+   scanf("%d",&num);
+   while(num<=10){
+       printf("%d\n",num*2);
+       num++;
+   }
+    return 0;
+}
+-------------------------------------------
+4)user input table 
+
+#include<stdio.h>
+int main(){
+    int n=1;
+    int i;
+    printf("enter any no of table:");
+    scanf("%d",&i);
+    while(n<=10){
+        printf("%d\n",i*n);
+        n++;
+    }
+    return 0;
+}
+-----------------------------------------------------
+
+5)sum of digit : dry run 
+
+#include<stdio.h>
+int main(){
+   int num;
+   printf("enter any no:");
+   scanf("%d",&num);
+   int sum;
+   int rem;
+   while(num>0){
+       rem=num%10;
+       sum=sum+rem;
+       num=num/10;
+   }
+   printf("%d ",sum);
+    return 0;
+}
+
+-------------------------------------------------------------------------------
+Q)
+e :54--->90 even number print 
+
+o :45--->96 odd number print 
+
+s :1--->10 number sum 
+
+w :swap values
+
+p :pallindrome 
+
+r :reverse 
+
+a :armstrong 
+
+c :count of digit 
+
+t :table of number 
+
+#include<stdio.h>
+int main(){
+    char strt;
+    printf("enter \n e :54--->90 even number print: \n o :45--->96 odd number print: \n s :1--->10 number sum: \n w :swap values: \n p :pallindrome: \n r :reverse: \n a :armstrong \n c :count of  \n t :table of number ");
+    scanf("%c",&strt);
+    if(strt=='e'){
+        int a=54;
+        while(a<=90){
+         if(a%2==0){
+             printf("%d ",a);
+         }
+         a++;
+        }
+        
+        }
+    else if(strt=='o'){
+        int a=54;
+        while(a<=90){
+         if(a%2!=0){
+             printf("%d ",a);
+         }
+         a++;
+        }
+    }
+    else if(strt=='s'){
+        int a=1;
+        int sum=0;
+        while(a<=10){
+            sum=sum+a;
+            a++;
+        }
+        printf("%d ",sum);
+    }
+    else if(strt=='w'){
+        int a=10;
+        int b=20;
+        printf("value of a before swapping:%d\n",a);
+        printf("value of b before swapping:%d\n",b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        printf("value of a after swapping:%d\n",a);
+        printf("value of b after swapping:%d\n",b);
+    }
+    else if(strt=='p'){
+        int num=121;
+        int sum=0;
+        int rem;
+        int temp=num;
+        while(num>0){
+            rem=num%10;
+            sum=sum*10+rem;
+            num=num/10;
+            
+        }
+        printf("%d ",sum);
+        if(temp==sum){
+            printf("palindrome");
+        }
+        else{
+            printf("not a palindrome");
+        }
+        
+    }
+    else if(strt=='r'){
+        int num=564;
+        int sum=0;
+        int rem;
+        while(num>0){
+            rem=num%10;
+            sum=sum*10+rem;
+            num=num/10;
+            
+        }
+        printf("%d ",sum);
+    }
+    else if(strt=='a'){
+        int num=143;
+        int sum=0;
+        int rem;
+        int temp=num;
+        while(num>0){
+            rem=num%10;
+            sum=sum+rem*rem*rem;
+            num=num/10;
+        }
+        printf("%d ",sum);
+        if (temp==sum){
+            printf("armstrong no");
+        }
+        else{
+            printf("not armstrong no");
+        }
+    }
+    else if (strt=='c'){
+        int num=4565;
+        int count=0;
+        while(num>0){
+            num=num/10;
+            count++;
+        }
+        printf("%d ",count);
+    }
+    else if(strt=='t'){
+	int n=1;
+    	int i;
+    	printf("enter any no of table:");
+    	scanf("%d",&i);
+    	while(n<=10){
+        	printf("%d\n",i*n);
+        	n++;
+    	}
+        
+    }
+    return 0;
+}
+-----------------------------------------------------------------------------
+
+
+----------------------------------------------------------------
+ 
+
+
+
+
+
+
+
+
+
+
