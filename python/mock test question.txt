@@ -1,0 +1,24 @@
+TEST:-
+1.difference between python version2 and version 3?
+ans:-python version 2 is the older version of python and version 3 is the updated version of python.
+with updated libraries and functions.
+		
+2.why we use loop?
+ans:-loop is used for repeating until the given condition  is not met.
+eg:-if we want to print a name 100 times we will use loop rather than using print statement 100 times.
+
+for i in range(100):
+    print("parul")
+
+3.why we use functions? differnce between lambda ,filter and map function?
+ans:-function is a block of code so we use function if we want to use logic 2nd time 3rd time or nth time. so simple we create a function and whenever we need that function we just simply call the function and we can resuse the same logic again.
+a)Lamda function			filter function()				map function()
+syntax:-x=lamba a,b:a+b			syntax:-x=filter(fn,container))		syntax:-map(data_type,container)
+single expression multiple argument.	use to filter the data.			used for change the one data type into another.	
+ 
+4.differnce between mutable and immutable data types?and also provide which data types are immutable?
+ans:-mutable data types are those which we can modify at runtime.immutuable data types are those which we cant modify at run time.list and dictonary are mutable datatypes string and tuple are immutable datatype. 
+5.difference b/w dictonary and sets?
+6.difference b/w list and tuple?
+ans:-list:-list is mutable.syntax:-[],list has more functionality than tuple.
+tuple:-tuple is immutable.syntax:-(),tuple has less functionality than list.

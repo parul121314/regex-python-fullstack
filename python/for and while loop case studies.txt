@@ -1,0 +1,135 @@
+for loop case studes:-
+
+1)Program to calculate the total cost of items in shopping cart.
+
+cart=[
+    {"item":"laptop","price":50000},
+    {"item":"Tv","price":20000},
+    {"item":"Mobile","price":30000},
+    {"item":"AC","price":45000},
+    {"item":"speaker","price":15000}
+]
+total_cost=0
+for item in cart:
+    total_cost += item["price"]
+print("the total cost of item in the shopping cart:-",total_cost)
+-------------------------------------------------------------------------------------
+2)wap to extract each mail from the list of mails.
+
+gmails=["abc@gmail.com","xyz@gmail.com","user1@gmail.com","olduser@gmail.com","newuser@gmail.com"]
+for gmail in gmails:
+    print("processing gmail:-",gmail)
+----------------------------------------------------------------------------
+3)wap to print records of user from the database.
+
+database=[
+    {"id":1,"name":"parul","gmail":"parul@gmail.com","status":"active"},
+    {"id":2,"name":"rohit","gmail":"rohit@gmail.com","status":"inactive"},
+    {"id":3,"name":"pooja","gmail":"pooja@gmail.com","status":"active"},
+    {"id":1,"name":"geeta","gmail":"geeta@gmail.com","status":"inactive"},
+    {"id":1,"name":"anuj","gmail":"anuj@gmail.com","status":"active"},
+    ]
+update="status"
+new="suspended"
+for user in database:
+    user[update] = new
+print("updated user records:-")
+for user in database:
+    print(f"ID :{user['id']}, Name:{user['name']}, Gmail:{user['gmail']}, Status:{user['status']}")
+
+----------------------------------------------------------------------------------------
+
+4)create a sample sales data and fetch each region record.
+
+sales_data = [       	
+    {"region": "North", "sales": 5000},
+    {"region": "South", "sales": 8000},
+    {"region": "East", "sales": 6000},
+  
+]
+
+for entry in sales_data:
+    print(f"Region: {entry['region']}, Sales: {entry['sales']}")
+
+--------------------------------------------------------------------------
+5)wap for tempreture analysis.
+
+temp_data=[25.8,89.1,45.3,56.2,40.8]
+total_temp=0
+max_temp=float('-inf')
+min_temp=float('inf')
+for temp in temp_data:
+    total_temp += temp
+if temp<min_temp:
+    min_temp = temp
+if temp>max_temp:
+    max_temp=temp
+avg_temp=total_temp/len(temp_data)
+
+print("temperature analysis:-")
+print(f"Maximum Temperature: {max_temp}")
+print(f"Minimum Temperature: {min_temp}")
+print(f"Average temoerature: {avg_temp}")
+    
+-----------------------------------------------------------------------------------------
+
+-----------------------------------while loop--------------------------------------
+1)implement the game loop.
+
+game_running=True
+while game_running :
+    user=input("enter quit to exit:-")
+    if user.lower()=='quit':
+        game_running = False
+print("Game Over!")
+---------------------------------------------------
+2)wap to print fibonaci series.
+
+start= [0, 1]
+end= 10
+
+while len(start) < end:
+    start.append(start[-1] + start[-2])
+
+print(f"Fibonacci sequence: {start}")
+-----------------------------------------------------------
+3)Process a batch of items until a specific condition is met.
+
+batch=[1,3,5,7,9,2,4,6,8,10]
+target_value=int(input("enter the target value which you want to find:-"))
+index=0
+
+while batch[index] != target_value:
+    index +=1
+print(f"Target value {target_value} found at index {index}")
+---------------------------------------------------------------------
+4)Continuously prompt the user for input until valid data is entered.
+
+while True:
+        age = int(input("Enter your age: "))
+        if age >= 0:
+            break
+        else:
+            print("Please enter a valid age.")
+print(f"Your age is: {age}")
+------------------------------------------------------------
+5)Implement a countdown timer that waits for a specified time.
+
+import time
+
+countdown = 5
+
+while countdown > 0:
+    print(f"Time remaining: {countdown} seconds")
+    time.sleep(1)
+    countdown -= 1
+
+print("Time's up!")
+
+
+----------------------------------------------------------
+
+
+ 
+    			
+
