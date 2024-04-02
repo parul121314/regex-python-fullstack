@@ -1,0 +1,467 @@
+1)print A with star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i==1 ||  j==4 || j==1 || i==3){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+---------------------------------------------------------------------------------
+2)print B through star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=4;j++){
+            if(i==1 ||  j==4 || j==1 || i==5 || i==3){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-------------------------------------------------------------
+3)print C through star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i==1 ||   j==1 || i==4 ){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+---------------------------------------------------------------------
+4)print D through start pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i==1 ||   j==1 || i==4 || j==4){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+------------------------------------------------------------------
+5)print E through star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=4;j++){
+            if(i==1 ||   j==1 || i==5 || i==3){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-----------------------------------------------------------
+6)print F through star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=4;j++){
+            if(i==1 ||   j==1 || i==3){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-------------------------------------------------------------
+7)print H by star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=4;j++){
+            if(j==1 ||   j==4 || i==3){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-------------------------------------------------
+8)print I by star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 ||   j==3 || i==5){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-----------------------------------------------------------
+9)print L by star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(j==1  || i==5){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-------------------------------------------------
+10)print T by star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(j==3  || i==1){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+--------------------------------------------------
+11)print U by star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(j==1  || i==5 || j==5){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+---------------------------------------------------------
+12)print opposite z by star pattern:-
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1  || i==5 || i==j){
+               printf("*"); 
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+13)print Z by star pattern:=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i+j==4 || i==4  || i==1){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+----------------------------------------------------------------------
+14)print *        by star pattern:-
+	   *
+	     *
+		*
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i==j ){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+------------------------------------------------------------
+15)#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i==1 || j==1 ){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+---------------------------------------------
+16)#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i==1 || j==4 ){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-------------------------------------------------------
+18)
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i==4 || j==4 ){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-----------------------------------------------
+19)#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=5;j++){
+            if(i+j==5 || i==4  || j==1){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+---------------------------------------------------------------
+20)#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=5;j++){
+            if(i==j || i==1  || j==1){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+------------------------------------------------------------
+21)#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i+j==4 || i==1  || j==4){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-------------------------------------------------------
+22)#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i==j || i==4  || j==4){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+--------------------------------------------------------
+24)#include<stdio.h>
+int main(){
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=4;j++){
+            if(i==j || i==4  || j==4 ||i==1 || j==1){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+-------------------------------------------------------------
+25)#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i+j==6 || i==5  || j==5 ||i==1 || j==1){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+---------------------------------------------------------------------
+26)#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==j || i==5  || j==1){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+------------------------------------------------------------------
+27)#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==j || i==5  ){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+------------------------------------------------
+28)#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i+j==5 || i==5  ){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+---------------------------------------------------
+29)#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==j || i==1  ){
+              printf("*"); 
+            }
+            else{
+               printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+--------------------------------------------------------------
+30)
+
+
+
